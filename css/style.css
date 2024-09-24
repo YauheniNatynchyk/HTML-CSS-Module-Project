@@ -5,6 +5,143 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6633; /* Button and link color */
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6633; /* Logo color */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: url('background.jpg') center center/cover no-repeat;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#hero .btn {
+    background-color: #ff6633;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Features Section Styles */
+#features {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+#features .feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#features article {
+    max-width: 200px;
+    text-align: center;
+}
+
+#features article img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#features article h3 {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social li {
+    display: inline-block;
+}
+
+footer .social li img {
+    width: 25px;
+}
+
 
 /**
  * Add your custom styles below
