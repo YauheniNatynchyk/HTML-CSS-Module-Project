@@ -28,10 +28,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #ff6633; /* Button and link color */
-}
+    color: #ff6633;}
 
-/* Header Styles */
+/* ---------------------------------Header Styles -------------------------*/
 header {
     background-color: #fff;
     padding: 20px;
@@ -61,8 +60,9 @@ header nav ul li a {
     font-size: 1rem;
     color: #5e6167;
 }
+header nav ul li a:hover {color: #ff6633;}
 
-/* Hero Section Styles */
+/*------------------------------ Hero Section Styles -----------------*/
 #hero {
     display: flex;
     width: 100%;
@@ -94,8 +94,9 @@ header nav ul li a {
     border-radius: 5px;
     border: none;
 }
+.btn:hover {background-color: #f19070;}
 
-/* Features Section Styles */
+/* ------------------Features Section Styles -----------------*/
 #features {
     
     text-align: center;
@@ -143,15 +144,16 @@ header nav ul li a {
     font-size: 28px;
     padding-inline: 20%;
     color: #434242;
-    font-weight: 410;
+    font-weight: 400;
     font-style: italic;
      }  
+.article2-content span{color: #e89c84; font-weight: 600; font-style: italic;}
 .article2-content .btn {
     margin-top: 5%;
     width: auto;
 }
 
-/* Footer Styles */
+/* ---------------------Footer Styles--------------- */
 hr {
     border: none;
     height: 0.9px; 
@@ -193,7 +195,7 @@ footer .social {
     border-radius: 26px;
     border: 1px #dbdbdb solid;
     padding: 5px;
-    fill: blue;
+    fill: #3636af;
 }
       
 
