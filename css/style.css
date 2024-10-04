@@ -106,6 +106,7 @@ header nav ul li a:hover {color: #ff6633;}
     font-size: 32px;
     flex-direction: column;
     margin-top: 40px;
+    font-weight: 300;
 }
 
 #features .feature-list {
