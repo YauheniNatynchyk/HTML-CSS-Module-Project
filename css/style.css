@@ -164,7 +164,10 @@ aside {
        width: 45%;
        height: 100vh;
        justify-self: right;
-       background-image: url(../level-2/store-image_by-andrew-neel-unsplash.jpg) ;}
+       background-image: url(../level-2/store-image_by-andrew-neel-unsplash.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;}
 aside img {width: 100%;
            height: 100vh;}
 .formbox {
@@ -196,11 +199,14 @@ input[type="text"], select {
        
         .name-fields {
             display: flex;
-            justify-content: space-between;
         }
         
         .name-fields div {
             width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            vertical-align: top; /* Чтобы оба поля оставались в строке */
         }
         
         .name-fields label {
@@ -209,7 +215,7 @@ input[type="text"], select {
         }
         
         #first-name, #last-name {
-            width: 100%;
+            width: 45%;
             margin-bottom: 20px;
         }
         
